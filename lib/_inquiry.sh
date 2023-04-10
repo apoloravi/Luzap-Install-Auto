@@ -13,7 +13,7 @@ get_link_git() {
   print_banner
   printf "${WHITE} 💻 Insira o link do GITHUB do sistema:${GRAY_LIGHT}"
   printf "\n\n"
-  read -p "> " link_git
+  read -p "> " link_git=https://github.com/canove/whaticket/
 }
 
 get_instancia_add() {
@@ -43,7 +43,7 @@ get_max_user() {
 get_frontend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o domínio do FRONTEND/PAINEL para a ${instancia_add}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o Endereço do Painel ${instancia_add}:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " frontend_url
 }
@@ -51,7 +51,7 @@ get_frontend_url() {
 get_backend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o domínio do BACKEND/API para a ${instancia_add}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o endereço da API ${instancia_add}:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " backend_url
 }
