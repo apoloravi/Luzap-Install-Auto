@@ -123,8 +123,8 @@ inquiry_options() {
   print_banner
   printf "${WHITE} 💻 Bem vindo(a) ao instalador Whaticket, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [1] Instalar o Whaticket\n"
-  printf "   [2] Atualizar o Whaticket\n"
+  printf "   [1] Instalar o LuZap\n"
+  printf "   [2] Atualizar o LuZap\n"
   printf "\n"
   read -p "> " option
 
